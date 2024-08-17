@@ -30,7 +30,7 @@ const Login = () => {
 
                 console.log(loggedUser);
 
-                fetch('http://localhost:5000/jwt', {
+                fetch('http://localhost:3000/jwt', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -60,7 +60,7 @@ const Login = () => {
                     email: user.email
                 };
 
-                fetch('http://localhost:5000/jwt', {
+                fetch('http://localhost:3000/jwt', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

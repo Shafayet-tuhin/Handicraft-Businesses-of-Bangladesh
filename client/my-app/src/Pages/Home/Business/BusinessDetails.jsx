@@ -10,7 +10,6 @@ const BusinessDetails = () => {
     const location = useLocation();
     const { item } = location.state;
 
-    console.log(item);
 
     return (
         <div className="container mx-auto p-4 md:p-8 bg-gray-100 dark:bg-base-200 min-h-screen">

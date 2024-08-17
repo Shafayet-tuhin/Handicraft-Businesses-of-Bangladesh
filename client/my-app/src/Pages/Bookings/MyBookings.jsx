@@ -12,7 +12,7 @@ const MyBookings = () => {
 
     const [bookings, setBookings] = useState([])
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`
+    const url = `http://localhost:3000/bookings?email=${user?.email}`
 
     useEffect(() => {
         fetch(url, {
@@ -31,7 +31,7 @@ const MyBookings = () => {
               }
 
                 setBookings(data)
-                console.log(data)
+               
             })
             .catch(err => console.error(err))
     }, [url])
@@ -46,15 +46,19 @@ const MyBookings = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/bookings/${id}`, {
-                    method: "DELETE"
+                fetch(`http://localhost:3000/bookings/${id}`, {
+                    method: "DELETE",
+                    headers:{
+                        "Authorization": `Bearer ${localStorage.getItem('token')}`
+                    }
                 })
                     .then((res) => res.json())
                     .then((data) => {
-                        console.log(data)
-                        if (data.acknowledged) {
-                            const remain = bookings.filter(item => item._id !== id)
-                            setBookings(remain)
+                        const { message, Data } = data;
+
+
+                        if (message === "success") {
+                            setBookings(Data)
                         }
                     })
                 Swal.fire({
@@ -84,32 +88,21 @@ const MyBookings = () => {
             confirmButtonText: "Yes Update Item",
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/bookings/${id}`, {
+                fetch(`http://localhost:3000/bookings/${id}`, {
                     method: "PATCH",
                     headers: {
                         "Content-Type": "application/json",
                         "Authorization": `Bearer ${localStorage.getItem('token')}` // Include authorization header
                     },
                     body: JSON.stringify({
-                        status: "confirmed"
+                        email:user.email,
                     })
                 })
-                .then((res) => {
-                    if (!res.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return res.json();
-                })
+                .then((res) => res.json())
                 .then((data) => {
+                    
                     if (data.acknowledged) {
-                        // Update the status of the confirmed booking in the local state
-                        const updatedBookings = bookings.map(booking => {
-                            if (booking._id === id) {
-                                return { ...booking, status: 'confirmed' };
-                            }
-                            return booking;
-                        });
-                        setBookings(updatedBookings);
+                       setBookings(data.result)
                         Swal.fire({
                             title: "Item has been Confirmed",
                             icon: "success"

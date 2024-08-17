@@ -27,25 +27,26 @@ const Checkout = () => {
            img : image
         }
 
-        console.log(order)
+      
 
-        fetch("http://localhost:5000/bookings" , {
+        fetch("http://localhost:3000/bookings" , {
             method : 'POST',
             headers : {
-                'Content-Type' : 'application/json'
+                'Content-Type' : 'application/json',
+                "Authorization": `Bearer ${localStorage.getItem('token')}`
             },
             body : JSON.stringify(order)
         })
-        .then((res) => res.json())
+        .then((res) => res.json() )
         .then((data) => {
-            console.log(data)
+            
             Swal.fire({
                 title: "Item Added Successfully",
                 icon: "success"
               });
        
         })
-
+    
         e.target.reset() ;
     }
 
