@@ -1,0 +1,137 @@
+[
+    {
+        "page_name": "BanglaCrafts",
+        "page_description": "BanglaCrafts is dedicated to showcasing the best of Bangladeshi handicrafts, from traditional textiles to modern home decor. Our mission is to promote local artisans and their unique creations.",
+        "years_of_operation": 10,
+        "number_of_products": 150,
+        "likes": 50000,
+        "rating": 3.8,
+        "img": "https://banglacraft.org/wp-content/uploads/2023/11/Banglacraft-Logo.png"
+    },
+    {
+        "page_name": "Artisan Treasures BD",
+        "page_description": "Artisan Treasures BD offers a curated selection of handcrafted items, celebrating the rich cultural heritage of Bangladesh. From pottery to handloom products, we connect artisans with craft lovers.",
+        "years_of_operation": 8,
+        "number_of_products": 200,
+        "likes": 45000,
+        "rating": 4.2,
+        "img": "https://s3.amazonaws.com/www.explorersweb.com/wp-content/uploads/2022/09/30041336/shutterstock_606386231.jpg"
+    },
+    {
+        "page_name": "Handmade Elegance",
+        "page_description": "Handmade Elegance features a wide range of elegant, handcrafted products, perfect for those who appreciate fine craftsmanship and sustainable living.",
+        "years_of_operation": 6,
+        "number_of_products": 120,
+        "likes": 35000,
+        "rating": 4.6,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/274154879_106922971922912_4805687796253460676_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=xs9X0DfIWm8Q7kNvgFrG-OW&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYBjfdOs_WrZ4k4qd_OH7ZqSqChxoWb1jjwzm9Xxa_r30A&oe=66C58E63"
+    },
+    {
+        "page_name": "Crafts of Bengal",
+        "page_description": "Crafts of Bengal brings you the finest handicrafts from across Bangladesh, highlighting the diverse artistic traditions of the region. Our collection includes everything from traditional Nakshi Kantha to contemporary designs.",
+        "years_of_operation": 12,
+        "number_of_products": 180,
+        "likes": 60000,
+        "rating": 2.5,
+        "img": "https://www.getbengal.com/uploads/story_image/Crafts-of-Bengal.jpg"
+    },
+    {
+        "page_name": "EcoCraft BD",
+        "page_description": "EcoCraft BD is your go-to destination for eco-friendly and sustainable handcrafted products. We focus on items made from natural and recycled materials, supporting both the environment and local artisans.",
+        "years_of_operation": 5,
+        "number_of_products": 100,
+        "likes": 25000,
+        "rating": 4.5,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/292555460_543644807346838_7826390310195917132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UYR4rnrJxmUQ7kNvgF3hShV&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYDfyPgU0G1KKj-rGK0N7spxaGnXSaBNvZNsofAET95l6Q&oe=66C597E5"
+    },
+    {
+        "page_name": "Heritage Handicrafts",
+        "page_description": "Heritage Handicrafts specializes in preserving and promoting the traditional crafts of Bangladesh. Our collection includes rare and authentic pieces, each telling a story of cultural heritage.",
+        "years_of_operation": 15,
+        "number_of_products": 220,
+        "likes": 70000,
+        "rating": 4,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/302432570_387905896841908_8562259319781374004_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LPHSwN7nRGUQ7kNvgE8GgLy&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYACi_k_4ecel6cdTojbsnknW1FuZJZP7RKG8TeMR3XZjg&oe=66C58F7D"
+    },
+    {
+        "page_name": "Village Crafts",
+        "page_description": "Village Crafts brings you the best of rural Bangladeshi artistry, offering a wide range of handmade products created by local artisans. Our items are crafted with love and care, reflecting the beauty of village life.",
+        "years_of_operation": 7,
+        "number_of_products": 140,
+        "likes": 30000,
+        "rating": 4.4,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/359705825_569219132082478_4009070218992018778_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5RQLxXDdxrUQ7kNvgFskW2h&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYDJJWuwmCSQEFHXuPm_ieXB6vRVwFfOpvs-IGY722qrOg&oe=66C59169"
+    },
+    {
+        "page_name": "Artisan's Choice",
+        "page_description": "Artisan's Choice curates a selection of high-quality handcrafted products from skilled artisans across Bangladesh. From textiles to pottery, our products are made with precision and dedication.",
+        "years_of_operation": 9,
+        "number_of_products": 160,
+        "likes": 48000,
+        "rating": 4.8,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/310627286_483935073756529_3331422264849288843_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=C4oud-7V9zcQ7kNvgG4X9Lq&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYA-9yMZ7XqmOyqTe82TeepIQ1dgbuJrC5u71rnHKc89-A&oe=66C57F44"
+    },
+    {
+        "page_name": "Handicraft Hub BD",
+        "page_description": "Handicraft Hub BD is a marketplace for unique and handmade products from various regions of Bangladesh. We aim to connect buyers with authentic, high-quality crafts directly from the artisans.",
+        "years_of_operation": 11,
+        "number_of_products": 200,
+        "likes": 52000,
+        "rating": 4.8,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/273514420_1340386913101203_3280532742354259879_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2285d6&_nc_ohc=faHaZUcfNiQQ7kNvgF6_4d_&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYCgkgcjkEOf-t1a1AI42b-cWUZO2X8MvzLalKBS4paC3w&oe=66C5830C"
+    },
+    {
+        "page_name": "Traditional Treasures",
+        "page_description": "Traditional Treasures is a platform dedicated to promoting the rich cultural heritage of Bangladesh through handcrafted products. Our collection includes a variety of items, each made with traditional techniques passed down through generations.",
+        "years_of_operation": 13,
+        "number_of_products": 190,
+        "likes": 56000,
+        "rating": 4.9,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-1/334962414_764886438325677_819775650298618487_n.jpg?stp=dst-jpg_s200x200&_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=38qmpA1wqFIQ7kNvgGqc9ZD&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYBf7pM68x4kt9SLgBR7Lmollx9sJl-2OrRQITHvWhDFOA&oe=66C5628A"
+    },
+    {
+        "page_name": "Bengal Weaves",
+        "page_description": "Bengal Weaves specializes in handwoven textiles and traditional garments. Our products celebrate the weaving heritage of Bengal, offering beautiful and intricate designs crafted with skill and care.",
+        "years_of_operation": 9,
+        "number_of_products": 170,
+        "likes": 40000,
+        "rating": 4.7,
+        "img": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/300428531_121766823947579_3844311269298737648_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Its5B4eLgUgQ7kNvgGy9FZ-&_nc_ht=scontent.fcgp7-1.fna&oh=00_AYAAxEjN-3aL-Kc9xsyfqymN_bA1IY_hRO1S_LXkReloBg&oe=66C562CA"
+    },
+    {
+        "page_name": "Rural Artisans",
+        "page_description": "Rural Artisans showcases the work of artisans from remote villages in Bangladesh. We focus on preserving traditional techniques and promoting handcrafted products made with local materials.",
+        "years_of_operation": 6,
+        "number_of_products": 130,
+        "likes": 28000,
+        "rating": 4.5,
+        "img": "https://www.womenonwings.com/wp-content/uploads/2017/03/Gocoop-blog-cover-V1.jpg"
+    },
+    {
+        "page_name": "Crafts and Culture",
+        "page_description": "Crafts and Culture offers a diverse range of handcrafted items that reflect the rich cultural heritage of Bangladesh. Our products range from traditional crafts to contemporary art pieces.",
+        "years_of_operation": 11,
+        "number_of_products": 190,
+        "likes": 55000,
+        "rating": 4.8,
+        "img": "https://www.firstpalette.com/images/craft-mainpic-large/paperteepee-main.jpg"
+    },
+    {
+        "page_name": "Bangladesh Handicraft Society",
+        "page_description": "The Bangladesh Handicraft Society is dedicated to supporting local artisans and preserving traditional crafts. We provide a platform for artisans to showcase their work and reach a global audience.",
+        "years_of_operation": 14,
+        "number_of_products": 210,
+        "likes": 62000,
+        "rating": 4.9,
+        "img": "https://www.firstpalette.com/images/craft-mainpic-large/pumpkinpaperlantern-main.jpg"
+    },
+    {
+        "page_name": "Art of Bangladesh",
+        "page_description": "Art of Bangladesh highlights the artistic talents of Bangladeshi craftsmen through a curated collection of traditional and contemporary handicrafts. We aim to bridge the gap between artisans and art enthusiasts.",
+        "years_of_operation": 7,
+        "number_of_products": 150,
+        "likes": 33000,
+        "rating": 4.6,
+        "img": "https://i0.wp.com/durjoybangladeshfoundation.org/wp-content/uploads/2018/05/Shambhu-SP.jpg?resize=768%2C889&ssl=1"
+    }
+]
