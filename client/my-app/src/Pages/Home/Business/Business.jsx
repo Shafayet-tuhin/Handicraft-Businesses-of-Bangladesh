@@ -5,7 +5,7 @@ const Business = () => {
   const [data, setData] = useState([]);
   const [seemore, setSeemore] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:3000/business")
+    fetch("https://handicraft-bd.vercel.app/business")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Error:", error));

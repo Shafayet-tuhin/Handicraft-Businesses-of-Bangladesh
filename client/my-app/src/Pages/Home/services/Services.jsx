@@ -10,7 +10,7 @@ const Services = () => {
     const [acc, setAcc] = useState(true);
 
     useEffect(() => {
-        fetch(`http://localhost:3000/products?sort=${acc ? 'asc' : 'des'}`)
+        fetch(`https://handicraft-bd.vercel.app/products?sort=${acc ? 'asc' : 'des'}`)
             .then((res) => res.json())
             .then((data) => setServices(data));
     }, [acc]);

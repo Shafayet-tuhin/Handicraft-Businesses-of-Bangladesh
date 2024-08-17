@@ -12,7 +12,7 @@ const MyBookings = () => {
 
     const [bookings, setBookings] = useState([])
 
-    const url = `http://localhost:3000/bookings?email=${user?.email}`
+    const url = `https://handicraft-bd.vercel.app/bookings?email=${user?.email}`
 
     useEffect(() => {
         fetch(url, {
@@ -46,7 +46,7 @@ const MyBookings = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:3000/bookings/${id}`, {
+                fetch(`https://handicraft-bd.vercel.app/bookings/${id}`, {
                     method: "DELETE",
                     headers:{
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
@@ -88,7 +88,7 @@ const MyBookings = () => {
             confirmButtonText: "Yes Update Item",
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:3000/bookings/${id}`, {
+                fetch(`https://handicraft-bd.vercel.app/bookings/${id}`, {
                     method: "PATCH",
                     headers: {
                         "Content-Type": "application/json",

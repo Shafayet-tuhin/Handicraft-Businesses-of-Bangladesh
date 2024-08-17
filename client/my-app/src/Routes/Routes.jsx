@@ -33,7 +33,7 @@ const router = createBrowserRouter([
       {
         path: "/checkout/:id",
         element: <PrivateRoute><Checkout /></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:3000/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://handicraft-bd.vercel.app/products/${params.id}`)
       },
       {
         path:"/businessdetails",

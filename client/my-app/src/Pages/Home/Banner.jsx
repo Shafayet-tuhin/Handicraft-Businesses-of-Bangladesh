@@ -21,7 +21,7 @@ const Banner = () => {
         <div>
 
             <div className='lg:hidden'>
-                <div className="bg-[url('./assets/images/banner/5.jpg')] w-full bg-cover bg-center">
+                <div className="bg-[url('./assets/images/banner/4.jpg')] w-full bg-cover bg-center">
                     <div className="rounded-xlitems-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
                         <div className='text-white flex flex-col gap-6 pl-12 py-10'>
                             <h2 className='text-5xl font-bold'>Affordable Price For Handcraft Products</h2>

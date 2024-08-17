@@ -29,7 +29,7 @@ const Checkout = () => {
 
       
 
-        fetch("http://localhost:3000/bookings" , {
+        fetch("https://handicraft-bd.vercel.app/bookings" , {
             method : 'POST',
             headers : {
                 'Content-Type' : 'application/json',
