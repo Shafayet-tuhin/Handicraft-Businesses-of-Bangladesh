@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SingleService from './SingleService';
+import SingleService from './SingleProducts';
 import { TbCalendarTime } from "react-icons/tb";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaMapLocationDot } from "react-icons/fa6";
