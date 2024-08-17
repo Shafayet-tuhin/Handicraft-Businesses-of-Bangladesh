@@ -5,7 +5,7 @@ const Business = () => {
   const [data, setData] = useState([]);
   const [seemore, setSeemore] = useState(false);
   useEffect(() => {
-    fetch("/businessPage.json")
+    fetch("http://localhost:5000/businesspages")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Error:", error));

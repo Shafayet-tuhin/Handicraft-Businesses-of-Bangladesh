@@ -47,8 +47,8 @@ async function run() {
   try {
 
     const serviceCollection = client.db('Handicraft-Businesses-of-Bangladesh').collection('products');
-    // Corrected spelling of collection name
     const bookingCollection = client.db('Handicraft-Businesses-of-Bangladesh').collection('bookings');
+    const businessPagesCollection =  client.db('Handicraft-Businesses-of-Bangladesh').collection('business-pages')
 
     app.post('/jwt', (req, res) => {
       const user = req.body;
@@ -128,6 +128,19 @@ async function run() {
       const result = await bookingCollection.updateOne(filter, updatedDoc);
       res.send(result);
     });
+
+ 
+
+    app.get('/businesspages' , async(req,res) => {
+         try{
+                       const data = await businessPagesCollection.find().toArray()
+                        res.send(data);
+         }
+         catch(err){
+            console.error(err);
+            res.status(500).send({ error: true, message: 'Failed to get business pages' });
+         }
+    })
 
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
