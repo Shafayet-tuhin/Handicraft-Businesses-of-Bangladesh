@@ -29,7 +29,7 @@ app.post('/jwt', (req, res) => {
   console.log(user);
 
   const token = jwt.sign(user, process.env.ACCESS_TOKEN, {
-    expiresIn: '1h'
+    expiresIn: '24h'
   });
   console.log(token);
   res.send({ token });
