@@ -31,7 +31,7 @@ const Register = () => {
 
                 console.log(loggedUser);
 
-                fetch("http://localhost:5000/jwt", {
+                fetch("https://handicraft-bd.vercel.app/jwt", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
