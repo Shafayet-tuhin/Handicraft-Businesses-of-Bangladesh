@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 
 const MyBookings = () => {
 
-
     const { user ,setLoading } = useContext(AuthContext)
     const navigate = useNavigate()
 
