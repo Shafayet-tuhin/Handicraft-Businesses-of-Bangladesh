@@ -16,7 +16,6 @@ const Nav = () => {
         document.querySelector("html").setAttribute("data-theme", localTheme)
     },[theme])
 
-
     const handleLogout = () => {
         logOut()
             .then(() => {
