@@ -6,6 +6,7 @@ import { AuthContext } from '../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
+
 const Login = () => {
     const { signIn, signWithGoogle, passReset } = useContext(AuthContext);
     const navigate = useNavigate();
