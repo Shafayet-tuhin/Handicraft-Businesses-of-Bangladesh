@@ -9,6 +9,8 @@ const SingleBooking = ({ item, handleDelete, handleConfirm }) => {
         handleDelete(id);
     }
 
+
+
     return (
         <tr>
             <th>
@@ -41,5 +43,7 @@ const SingleBooking = ({ item, handleDelete, handleConfirm }) => {
         </tr>
     )
 }
+
+
 
 export default SingleBooking

@@ -11,6 +11,8 @@ const MyBookings = () => {
 
     const [bookings, setBookings] = useState([])
 
+
+
     const url = `https://handicraft-bd.vercel.app/bookings?email=${user?.email}`
 
     useEffect(() => {
@@ -34,6 +36,7 @@ const MyBookings = () => {
             })
             .catch(err => console.error(err))
     }, [url])
+
 
     const handleDelete = (id) => {
         Swal.fire({
@@ -69,7 +72,6 @@ const MyBookings = () => {
         });
 
     }
-
 
     const handleConfirm = (id) => {
         const check = bookings.find(item => item._id === id);
