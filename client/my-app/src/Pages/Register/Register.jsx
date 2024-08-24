@@ -13,6 +13,9 @@ const Register = () => {
     const [see, setSee] = useState(true);
     const [pass, setPass] = useState(true);
 
+
+
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         const name = e.target.name.value;
