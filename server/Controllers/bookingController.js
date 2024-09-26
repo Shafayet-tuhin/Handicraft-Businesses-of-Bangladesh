@@ -22,17 +22,21 @@ exports.postBooking = async (req,res) => {
     }
 }
 
-exports.deleteProduct = async (req,res) => {
-    try{
-                      const id = req.params.id 
-                      await BookingProduct.findByIdAndDelete(id)
-                      const result = await BookingProduct.find()
-                      res.json({message:"success",Data : result})
+exports.deleteProduct = async (req, res) => {
+    try {
+        const id = req.params.id;
+        const { email } = req.body; 
+
+        // console.log(email); 
+
+        await BookingProduct.findByIdAndDelete(id);
+        const result = await BookingProduct.find({ email }); 
+        res.json({ message: "success", Data: result });
+    } catch (err) {
+        res.status(500).json({ message: err.message });
     }
-    catch(err){
-        res.status(500).json({message: err.message})
-    }
-}
+};
+
 
 exports.updateBooking = async (req, res) => {
     try {

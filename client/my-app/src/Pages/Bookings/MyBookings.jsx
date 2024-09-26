@@ -9,6 +9,7 @@ const MyBookings = () => {
     const { user ,setLoading } = useContext(AuthContext)
     const navigate = useNavigate()
 
+
     const [bookings, setBookings] = useState([])
 
 
@@ -50,10 +51,15 @@ const MyBookings = () => {
             if (result.isConfirmed) {
                 fetch(`https://handicraft-bd.vercel.app/bookings/${id}`, {
                     method: "DELETE",
-                    headers:{
-                        "Authorization": `Bearer ${localStorage.getItem('token')}`
-                    }
+                    headers: {
+                        "Authorization": `Bearer ${localStorage.getItem('token')}`,
+                        "Content-Type": "application/json" 
+                    },
+                    body: JSON.stringify({
+                        email: user.email 
+                    })
                 })
+                
                     .then((res) => res.json())
                     .then((data) => {
                         const { message, Data } = data;
